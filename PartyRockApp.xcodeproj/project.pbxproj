@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B06AFCF1E4DFF40005EE40F /* EntryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B06AFCE1E4DFF40005EE40F /* EntryVC.swift */; };
 		2B1D90CB1E4D607F00BC1987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D90CA1E4D607F00BC1987 /* AppDelegate.swift */; };
-		2B1D90CD1E4D607F00BC1987 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D90CC1E4D607F00BC1987 /* MainVC.swift */; };
+		2B1D90CD1E4D607F00BC1987 /* LeonardMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D90CC1E4D607F00BC1987 /* LeonardMainVC.swift */; };
 		2B1D90D01E4D607F00BC1987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D90CE1E4D607F00BC1987 /* Main.storyboard */; };
 		2B1D90D21E4D607F00BC1987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D90D11E4D607F00BC1987 /* Assets.xcassets */; };
 		2B1D90D51E4D607F00BC1987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D90D31E4D607F00BC1987 /* LaunchScreen.storyboard */; };
 		2B1D90E01E4D607F00BC1987 /* PartyRockAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D90DF1E4D607F00BC1987 /* PartyRockAppTests.swift */; };
 		2B1D90EB1E4D607F00BC1987 /* PartyRockAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D90EA1E4D607F00BC1987 /* PartyRockAppUITests.swift */; };
-		2B1D90FC1E4D742300BC1987 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D90FB1E4D742300BC1987 /* VideoVC.swift */; };
+		2B1D90FC1E4D742300BC1987 /* LeonardVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D90FB1E4D742300BC1987 /* LeonardVideoVC.swift */; };
 		2B1D90FE1E4D764A00BC1987 /* DroneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D90FD1E4D764A00BC1987 /* DroneCell.swift */; };
 		2B1D91001E4D779D00BC1987 /* DroneVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D90FF1E4D779D00BC1987 /* DroneVideo.swift */; };
 /* End PBXBuildFile section */
@@ -37,9 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B06AFCE1E4DFF40005EE40F /* EntryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryVC.swift; sourceTree = "<group>"; };
 		2B1D90C71E4D607F00BC1987 /* PartyRockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyRockApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B1D90CA1E4D607F00BC1987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B1D90CC1E4D607F00BC1987 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainVC.swift; path = PartyRockApp/MainVC.swift; sourceTree = "<group>"; };
+		2B1D90CC1E4D607F00BC1987 /* LeonardMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeonardMainVC.swift; path = PartyRockApp/LeonardMainVC.swift; sourceTree = "<group>"; };
 		2B1D90CF1E4D607F00BC1987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B1D90D11E4D607F00BC1987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B1D90D41E4D607F00BC1987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,7 +52,7 @@
 		2B1D90E61E4D607F00BC1987 /* PartyRockAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartyRockAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B1D90EA1E4D607F00BC1987 /* PartyRockAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyRockAppUITests.swift; sourceTree = "<group>"; };
 		2B1D90EC1E4D607F00BC1987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B1D90FB1E4D742300BC1987 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		2B1D90FB1E4D742300BC1987 /* LeonardVideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeonardVideoVC.swift; sourceTree = "<group>"; };
 		2B1D90FD1E4D764A00BC1987 /* DroneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroneCell.swift; sourceTree = "<group>"; };
 		2B1D90FF1E4D779D00BC1987 /* DroneVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroneVideo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,8 +138,9 @@
 		2B1D90F81E4D6EA600BC1987 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2B1D90FB1E4D742300BC1987 /* VideoVC.swift */,
-				2B1D90CC1E4D607F00BC1987 /* MainVC.swift */,
+				2B1D90FB1E4D742300BC1987 /* LeonardVideoVC.swift */,
+				2B1D90CC1E4D607F00BC1987 /* LeonardMainVC.swift */,
+				2B06AFCE1E4DFF40005EE40F /* EntryVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -294,8 +297,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B1D91001E4D779D00BC1987 /* DroneVideo.swift in Sources */,
-				2B1D90FC1E4D742300BC1987 /* VideoVC.swift in Sources */,
-				2B1D90CD1E4D607F00BC1987 /* MainVC.swift in Sources */,
+				2B1D90FC1E4D742300BC1987 /* LeonardVideoVC.swift in Sources */,
+				2B1D90CD1E4D607F00BC1987 /* LeonardMainVC.swift in Sources */,
+				2B06AFCF1E4DFF40005EE40F /* EntryVC.swift in Sources */,
 				2B1D90FE1E4D764A00BC1987 /* DroneCell.swift in Sources */,
 				2B1D90CB1E4D607F00BC1987 /* AppDelegate.swift in Sources */,
 			);
@@ -542,6 +546,7 @@
 				2B1D90F11E4D607F00BC1987 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B1D90F21E4D607F00BC1987 /* Build configuration list for PBXNativeTarget "PartyRockAppTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +555,7 @@
 				2B1D90F41E4D607F00BC1987 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B1D90F51E4D607F00BC1987 /* Build configuration list for PBXNativeTarget "PartyRockAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +564,7 @@
 				2B1D90F71E4D607F00BC1987 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

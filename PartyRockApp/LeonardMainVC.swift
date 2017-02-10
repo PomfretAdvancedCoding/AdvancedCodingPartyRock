@@ -8,11 +8,21 @@
 
 import UIKit
 
-class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class LeonardMainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
     
     var droneCells = [DroneVideo]()
+    
+    private var _selectedSong: String!
+    
+    var selectedSong: String {
+        get {
+            return _selectedSong
+        } set {
+            _selectedSong = newValue
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,13 +70,13 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let droneVideo = droneCells[indexPath.row]
+        //let droneVideo = droneCells[indexPath.row]
         
-        performSegue(withIdentifier: "VideoVC", sender: droneVideo)
+        performSegue(withIdentifier: "LeonardVideoVC", sender: droneCells[indexPath.row])
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let destination = segue.destination as? VideoVC {
+        if let destination = segue.destination as? LeonardVideoVC {
             if let drone = sender as? DroneVideo {
                 destination.droneVideo = drone
             }

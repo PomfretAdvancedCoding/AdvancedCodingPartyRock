@@ -8,7 +8,7 @@
 
 import UIKit
 
-class VideoVC: UIViewController {
+class LeonardVideoVC: UIViewController {
 
     @IBOutlet weak var webView: UIWebView!
     @IBOutlet weak var titleLabel: UILabel!

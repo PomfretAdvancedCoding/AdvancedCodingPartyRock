@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "22B65656291CF8585B9B894306E12D0A8ED2ED76",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "88350DD557070A23C1A4F626A0F8869398D3720C" : 9223372036854775807,
+    "22B65656291CF8585B9B894306E12D0A8ED2ED76" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "19A33118-40F0-49D2-B071-D944B965968A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "88350DD557070A23C1A4F626A0F8869398D3720C" : "",
+    "22B65656291CF8585B9B894306E12D0A8ED2ED76" : "AdvancedCodingPartyRock\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PartyRockApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PartyRockApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rleonard17\/AdvancedCodingPartyRock.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "22B65656291CF8585B9B894306E12D0A8ED2ED76"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rleonard17\/AdvancedComputerScienceGithub.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "88350DD557070A23C1A4F626A0F8869398D3720C"
+    }
+  ]
+}
