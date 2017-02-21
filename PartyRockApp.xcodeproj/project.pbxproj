@@ -18,6 +18,26 @@
 		2B1D90FC1E4D742300BC1987 /* LeonardVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D90FB1E4D742300BC1987 /* LeonardVideoVC.swift */; };
 		2B1D90FE1E4D764A00BC1987 /* DroneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D90FD1E4D764A00BC1987 /* DroneCell.swift */; };
 		2B1D91001E4D779D00BC1987 /* DroneVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D90FF1E4D779D00BC1987 /* DroneVideo.swift */; };
+		2B2A0EDA1E5CA6C2006E2F22 /* galuszaMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A0ED01E5CA6C2006E2F22 /* galuszaMainVC.swift */; };
+		2B2A0EDB1E5CA6C2006E2F22 /* galuszaVideoVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A0ED11E5CA6C2006E2F22 /* galuszaVideoVCViewController.swift */; };
+		2B2A0EDC1E5CA6C2006E2F22 /* GeyerMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A0ED21E5CA6C2006E2F22 /* GeyerMainVC.swift */; };
+		2B2A0EDD1E5CA6C2006E2F22 /* GeyerVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A0ED31E5CA6C2006E2F22 /* GeyerVideoVC.swift */; };
+		2B2A0EDE1E5CA6C2006E2F22 /* JakeMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A0ED41E5CA6C2006E2F22 /* JakeMainVC.swift */; };
+		2B2A0EDF1E5CA6C2006E2F22 /* JakeVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A0ED51E5CA6C2006E2F22 /* JakeVideoVC.swift */; };
+		2B2A0EE01E5CA6C2006E2F22 /* KMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A0ED61E5CA6C2006E2F22 /* KMainVC.swift */; };
+		2B2A0EE11E5CA6C2006E2F22 /* KVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A0ED71E5CA6C2006E2F22 /* KVideoVC.swift */; };
+		2B2A0EE21E5CA6C2006E2F22 /* MainVCSmile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A0ED81E5CA6C2006E2F22 /* MainVCSmile.swift */; };
+		2B2A0EE31E5CA6C2006E2F22 /* VideoVCSmile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A0ED91E5CA6C2006E2F22 /* VideoVCSmile.swift */; };
+		2B2A0EE91E5CA6E9006E2F22 /* galuszaPartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A0EE41E5CA6E9006E2F22 /* galuszaPartyCell.swift */; };
+		2B2A0EEA1E5CA6E9006E2F22 /* GeyerPartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A0EE51E5CA6E9006E2F22 /* GeyerPartyCell.swift */; };
+		2B2A0EEB1E5CA6E9006E2F22 /* JakeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A0EE61E5CA6E9006E2F22 /* JakeCell.swift */; };
+		2B2A0EEC1E5CA6E9006E2F22 /* KPartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A0EE71E5CA6E9006E2F22 /* KPartyCell.swift */; };
+		2B2A0EED1E5CA6E9006E2F22 /* PartyCellSmile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A0EE81E5CA6E9006E2F22 /* PartyCellSmile.swift */; };
+		2B2A0EF31E5CA6F5006E2F22 /* galuszaPartyRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A0EEE1E5CA6F5006E2F22 /* galuszaPartyRock.swift */; };
+		2B2A0EF41E5CA6F5006E2F22 /* GeyerPartyRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A0EEF1E5CA6F5006E2F22 /* GeyerPartyRock.swift */; };
+		2B2A0EF51E5CA6F5006E2F22 /* JakeNHL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A0EF01E5CA6F5006E2F22 /* JakeNHL.swift */; };
+		2B2A0EF61E5CA6F5006E2F22 /* KPartyRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A0EF11E5CA6F5006E2F22 /* KPartyRock.swift */; };
+		2B2A0EF71E5CA6F5006E2F22 /* PartyRockSmile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A0EF21E5CA6F5006E2F22 /* PartyRockSmile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +75,26 @@
 		2B1D90FB1E4D742300BC1987 /* LeonardVideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeonardVideoVC.swift; sourceTree = "<group>"; };
 		2B1D90FD1E4D764A00BC1987 /* DroneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroneCell.swift; sourceTree = "<group>"; };
 		2B1D90FF1E4D779D00BC1987 /* DroneVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroneVideo.swift; sourceTree = "<group>"; };
+		2B2A0ED01E5CA6C2006E2F22 /* galuszaMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = galuszaMainVC.swift; sourceTree = "<group>"; };
+		2B2A0ED11E5CA6C2006E2F22 /* galuszaVideoVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = galuszaVideoVCViewController.swift; sourceTree = "<group>"; };
+		2B2A0ED21E5CA6C2006E2F22 /* GeyerMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeyerMainVC.swift; sourceTree = "<group>"; };
+		2B2A0ED31E5CA6C2006E2F22 /* GeyerVideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeyerVideoVC.swift; sourceTree = "<group>"; };
+		2B2A0ED41E5CA6C2006E2F22 /* JakeMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JakeMainVC.swift; sourceTree = "<group>"; };
+		2B2A0ED51E5CA6C2006E2F22 /* JakeVideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JakeVideoVC.swift; sourceTree = "<group>"; };
+		2B2A0ED61E5CA6C2006E2F22 /* KMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMainVC.swift; sourceTree = "<group>"; };
+		2B2A0ED71E5CA6C2006E2F22 /* KVideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVideoVC.swift; sourceTree = "<group>"; };
+		2B2A0ED81E5CA6C2006E2F22 /* MainVCSmile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVCSmile.swift; sourceTree = "<group>"; };
+		2B2A0ED91E5CA6C2006E2F22 /* VideoVCSmile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVCSmile.swift; sourceTree = "<group>"; };
+		2B2A0EE41E5CA6E9006E2F22 /* galuszaPartyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = galuszaPartyCell.swift; sourceTree = "<group>"; };
+		2B2A0EE51E5CA6E9006E2F22 /* GeyerPartyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeyerPartyCell.swift; sourceTree = "<group>"; };
+		2B2A0EE61E5CA6E9006E2F22 /* JakeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JakeCell.swift; sourceTree = "<group>"; };
+		2B2A0EE71E5CA6E9006E2F22 /* KPartyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPartyCell.swift; sourceTree = "<group>"; };
+		2B2A0EE81E5CA6E9006E2F22 /* PartyCellSmile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyCellSmile.swift; sourceTree = "<group>"; };
+		2B2A0EEE1E5CA6F5006E2F22 /* galuszaPartyRock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = galuszaPartyRock.swift; sourceTree = "<group>"; };
+		2B2A0EEF1E5CA6F5006E2F22 /* GeyerPartyRock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeyerPartyRock.swift; sourceTree = "<group>"; };
+		2B2A0EF01E5CA6F5006E2F22 /* JakeNHL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JakeNHL.swift; sourceTree = "<group>"; };
+		2B2A0EF11E5CA6F5006E2F22 /* KPartyRock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPartyRock.swift; sourceTree = "<group>"; };
+		2B2A0EF21E5CA6F5006E2F22 /* PartyRockSmile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyRockSmile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +178,16 @@
 		2B1D90F81E4D6EA600BC1987 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2B2A0ED01E5CA6C2006E2F22 /* galuszaMainVC.swift */,
+				2B2A0ED11E5CA6C2006E2F22 /* galuszaVideoVCViewController.swift */,
+				2B2A0ED21E5CA6C2006E2F22 /* GeyerMainVC.swift */,
+				2B2A0ED31E5CA6C2006E2F22 /* GeyerVideoVC.swift */,
+				2B2A0ED41E5CA6C2006E2F22 /* JakeMainVC.swift */,
+				2B2A0ED51E5CA6C2006E2F22 /* JakeVideoVC.swift */,
+				2B2A0ED61E5CA6C2006E2F22 /* KMainVC.swift */,
+				2B2A0ED71E5CA6C2006E2F22 /* KVideoVC.swift */,
+				2B2A0ED81E5CA6C2006E2F22 /* MainVCSmile.swift */,
+				2B2A0ED91E5CA6C2006E2F22 /* VideoVCSmile.swift */,
 				2B1D90FB1E4D742300BC1987 /* LeonardVideoVC.swift */,
 				2B1D90CC1E4D607F00BC1987 /* LeonardMainVC.swift */,
 				2B06AFCE1E4DFF40005EE40F /* EntryVC.swift */,
@@ -148,6 +198,11 @@
 		2B1D90F91E4D6EBA00BC1987 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2B2A0EE41E5CA6E9006E2F22 /* galuszaPartyCell.swift */,
+				2B2A0EE51E5CA6E9006E2F22 /* GeyerPartyCell.swift */,
+				2B2A0EE61E5CA6E9006E2F22 /* JakeCell.swift */,
+				2B2A0EE71E5CA6E9006E2F22 /* KPartyCell.swift */,
+				2B2A0EE81E5CA6E9006E2F22 /* PartyCellSmile.swift */,
 				2B1D90FD1E4D764A00BC1987 /* DroneCell.swift */,
 			);
 			name = View;
@@ -156,6 +211,11 @@
 		2B1D90FA1E4D6EBE00BC1987 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2B2A0EEE1E5CA6F5006E2F22 /* galuszaPartyRock.swift */,
+				2B2A0EEF1E5CA6F5006E2F22 /* GeyerPartyRock.swift */,
+				2B2A0EF01E5CA6F5006E2F22 /* JakeNHL.swift */,
+				2B2A0EF11E5CA6F5006E2F22 /* KPartyRock.swift */,
+				2B2A0EF21E5CA6F5006E2F22 /* PartyRockSmile.swift */,
 				2B1D90FF1E4D779D00BC1987 /* DroneVideo.swift */,
 			);
 			name = Model;
@@ -296,12 +356,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B2A0EE91E5CA6E9006E2F22 /* galuszaPartyCell.swift in Sources */,
+				2B2A0EE21E5CA6C2006E2F22 /* MainVCSmile.swift in Sources */,
+				2B2A0EEC1E5CA6E9006E2F22 /* KPartyCell.swift in Sources */,
 				2B1D91001E4D779D00BC1987 /* DroneVideo.swift in Sources */,
+				2B2A0EE01E5CA6C2006E2F22 /* KMainVC.swift in Sources */,
+				2B2A0EDD1E5CA6C2006E2F22 /* GeyerVideoVC.swift in Sources */,
+				2B2A0EDA1E5CA6C2006E2F22 /* galuszaMainVC.swift in Sources */,
+				2B2A0EDF1E5CA6C2006E2F22 /* JakeVideoVC.swift in Sources */,
 				2B1D90FC1E4D742300BC1987 /* LeonardVideoVC.swift in Sources */,
+				2B2A0EE31E5CA6C2006E2F22 /* VideoVCSmile.swift in Sources */,
 				2B1D90CD1E4D607F00BC1987 /* LeonardMainVC.swift in Sources */,
+				2B2A0EDE1E5CA6C2006E2F22 /* JakeMainVC.swift in Sources */,
+				2B2A0EF41E5CA6F5006E2F22 /* GeyerPartyRock.swift in Sources */,
+				2B2A0EF51E5CA6F5006E2F22 /* JakeNHL.swift in Sources */,
 				2B06AFCF1E4DFF40005EE40F /* EntryVC.swift in Sources */,
 				2B1D90FE1E4D764A00BC1987 /* DroneCell.swift in Sources */,
+				2B2A0EE11E5CA6C2006E2F22 /* KVideoVC.swift in Sources */,
+				2B2A0EEB1E5CA6E9006E2F22 /* JakeCell.swift in Sources */,
+				2B2A0EF71E5CA6F5006E2F22 /* PartyRockSmile.swift in Sources */,
+				2B2A0EED1E5CA6E9006E2F22 /* PartyCellSmile.swift in Sources */,
+				2B2A0EF61E5CA6F5006E2F22 /* KPartyRock.swift in Sources */,
 				2B1D90CB1E4D607F00BC1987 /* AppDelegate.swift in Sources */,
+				2B2A0EDC1E5CA6C2006E2F22 /* GeyerMainVC.swift in Sources */,
+				2B2A0EDB1E5CA6C2006E2F22 /* galuszaVideoVCViewController.swift in Sources */,
+				2B2A0EEA1E5CA6E9006E2F22 /* GeyerPartyCell.swift in Sources */,
+				2B2A0EF31E5CA6F5006E2F22 /* galuszaPartyRock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
