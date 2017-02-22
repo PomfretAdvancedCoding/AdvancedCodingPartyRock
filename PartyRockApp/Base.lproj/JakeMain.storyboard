@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Jake MainVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="JakeMainVC" customModule="RockApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nhl25" translatesAutoresizingMaskIntoConstraints="NO" id="Dys-Yx-RCU">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="177"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="177" id="O9j-Ue-jTA"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FFe-0B-esu">
+                                <rect key="frame" x="0.0" y="177" width="375" height="39"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="HFw-H6-BWE">
+                                        <rect key="frame" x="8" y="4" width="359" height="40"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQx-ot-Kol">
+                                                <rect key="frame" x="0.0" y="0.0" width="119.5" height="40"/>
+                                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="17"/>
+                                                <state key="normal" title="HIGHLIGHTS">
+                                                    <color key="titleColor" red="1" green="0.62386004964017616" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oob-L4-BHP">
+                                                <rect key="frame" x="119.5" y="0.0" width="120" height="40"/>
+                                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="17"/>
+                                                <state key="normal" title="SCORES">
+                                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4tE-WC-6g1">
+                                                <rect key="frame" x="239.5" y="0.0" width="119.5" height="40"/>
+                                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="17"/>
+                                                <state key="normal" title="STANDINGS">
+                                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="HFw-H6-BWE" secondAttribute="trailing" constant="8" id="3Bx-PY-Hnf"/>
+                                    <constraint firstItem="HFw-H6-BWE" firstAttribute="leading" secondItem="FFe-0B-esu" secondAttribute="leading" constant="8" id="UHo-Kr-e3K"/>
+                                    <constraint firstAttribute="height" constant="39" id="hlO-nf-943"/>
+                                    <constraint firstItem="HFw-H6-BWE" firstAttribute="top" secondItem="FFe-0B-esu" secondAttribute="top" constant="4" id="yx6-eP-hon"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="97" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4Bs-FB-aTB">
+                                <rect key="frame" x="0.0" y="216" width="375" height="451"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HockeyCell" rowHeight="97" id="eUl-yY-1fq" customClass="JakeCell" customModule="RockApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="97"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eUl-yY-1fq" id="VJi-U9-iLH">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nhl25" translatesAutoresizingMaskIntoConstraints="NO" id="9hb-76-dvH">
+                                                    <rect key="frame" x="8" y="8" width="87" height="79"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="87" id="Iil-dr-Dla"/>
+                                                        <constraint firstAttribute="height" constant="79" id="xsh-93-3ZO"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7On-dK-vqn">
+                                                    <rect key="frame" x="103" y="35" width="264" height="25"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="25" id="3YU-ft-8Js"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="15"/>
+                                                    <color key="textColor" red="1" green="0.62386004959999997" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="9hb-76-dvH" firstAttribute="leading" secondItem="VJi-U9-iLH" secondAttribute="leadingMargin" id="77E-tA-t49"/>
+                                                <constraint firstItem="7On-dK-vqn" firstAttribute="centerY" secondItem="VJi-U9-iLH" secondAttribute="centerY" id="8qy-38-URZ"/>
+                                                <constraint firstItem="7On-dK-vqn" firstAttribute="leading" secondItem="9hb-76-dvH" secondAttribute="trailing" constant="8" id="ool-Rv-sM3"/>
+                                                <constraint firstItem="7On-dK-vqn" firstAttribute="trailing" secondItem="VJi-U9-iLH" secondAttribute="trailingMargin" id="qu1-Xe-Bpd"/>
+                                                <constraint firstItem="9hb-76-dvH" firstAttribute="centerY" secondItem="VJi-U9-iLH" secondAttribute="centerY" id="wLL-0X-3Jk"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="jakeVideoPreviewImage" destination="9hb-76-dvH" id="vrM-dj-TBC"/>
+                                            <outlet property="jakeVideoTitle" destination="7On-dK-vqn" id="LV1-GD-yvX"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="4Bs-FB-aTB" secondAttribute="trailing" id="2Cw-ff-lJP"/>
+                            <constraint firstItem="Dys-Yx-RCU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="DdK-7i-z3N"/>
+                            <constraint firstItem="4Bs-FB-aTB" firstAttribute="top" secondItem="FFe-0B-esu" secondAttribute="bottom" id="Mqe-D1-Xq1"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4Bs-FB-aTB" secondAttribute="bottom" id="OSl-el-f8Y"/>
+                            <constraint firstAttribute="trailing" secondItem="Dys-Yx-RCU" secondAttribute="trailing" id="OcP-P3-8IC"/>
+                            <constraint firstAttribute="trailing" secondItem="FFe-0B-esu" secondAttribute="trailing" id="Zi4-Dm-GPX"/>
+                            <constraint firstItem="4Bs-FB-aTB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="mX9-W2-bq1"/>
+                            <constraint firstItem="FFe-0B-esu" firstAttribute="top" secondItem="Dys-Yx-RCU" secondAttribute="bottom" id="obr-yf-aNm"/>
+                            <constraint firstItem="FFe-0B-esu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rMh-vz-4d4"/>
+                            <constraint firstItem="Dys-Yx-RCU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="sZ7-BM-fel"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="jakeTableView" destination="4Bs-FB-aTB" id="DdY-re-5L1"/>
+                        <segue destination="fsF-iL-ael" kind="showDetail" identifier="JakeVideoVC" id="wuJ-Rv-Xz9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+        </scene>
+        <!--Jake VideoVC-->
+        <scene sceneID="VN5-1i-hkT">
+            <objects>
+                <viewController id="fsF-iL-ael" customClass="JakeVideoVC" customModule="RockApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SgT-OI-Ob3"/>
+                        <viewControllerLayoutGuide type="bottom" id="DAs-cK-jCp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ogV-Cl-ZkQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xeQ-Tu-7u5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="231"/>
+                                <color key="backgroundColor" red="0.36078431372549019" green="0.38823529411764707" blue="0.40392156862745099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="231" id="Y6t-Ee-78p"/>
+                                </constraints>
+                            </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16f-q4-KBo">
+                                <rect key="frame" x="21" y="281" width="333" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="Gco-Lv-4uz"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="YBu-Yc-VUc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.62386004959999997" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BoD-uZ-hYd">
+                                <rect key="frame" x="21" y="617" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="ACN-aa-DJD"/>
+                                    <constraint firstAttribute="height" constant="30" id="DDW-NC-RKt"/>
+                                </constraints>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="backbtnPressed:" destination="fsF-iL-ael" eventType="touchUpInside" id="CPT-lf-P2d"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="xeQ-Tu-7u5" secondAttribute="trailing" id="1Gg-U5-BH9"/>
+                            <constraint firstItem="16f-q4-KBo" firstAttribute="leading" secondItem="ogV-Cl-ZkQ" secondAttribute="leadingMargin" constant="5" id="DPZ-hh-jRI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="16f-q4-KBo" secondAttribute="trailing" constant="5" id="Nb0-UV-qIy"/>
+                            <constraint firstItem="DAs-cK-jCp" firstAttribute="top" secondItem="BoD-uZ-hYd" secondAttribute="bottom" constant="20" id="Q1n-p4-o4a"/>
+                            <constraint firstItem="16f-q4-KBo" firstAttribute="top" secondItem="xeQ-Tu-7u5" secondAttribute="bottom" constant="50" id="g92-SR-BUy"/>
+                            <constraint firstItem="BoD-uZ-hYd" firstAttribute="leading" secondItem="ogV-Cl-ZkQ" secondAttribute="leadingMargin" constant="5" id="qZo-kU-G6H"/>
+                            <constraint firstItem="xeQ-Tu-7u5" firstAttribute="top" secondItem="ogV-Cl-ZkQ" secondAttribute="top" id="tBi-eJ-h4a"/>
+                            <constraint firstItem="xeQ-Tu-7u5" firstAttribute="leading" secondItem="ogV-Cl-ZkQ" secondAttribute="leading" id="vtJ-JA-322"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="jakeTitleLbl" destination="16f-q4-KBo" id="qG3-gr-l0D"/>
+                        <outlet property="jakeWebView" destination="xeQ-Tu-7u5" id="G10-iC-QIc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V8q-Vl-Qpz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="757.60000000000002" y="36.431784107946029"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="nhl25" width="1365" height="1024"/>
+    </resources>
+</document>
