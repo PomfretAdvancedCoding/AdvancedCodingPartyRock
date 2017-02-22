@@ -38,6 +38,7 @@
 		2B2A0EF51E5CA6F5006E2F22 /* JakeNHL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A0EF01E5CA6F5006E2F22 /* JakeNHL.swift */; };
 		2B2A0EF61E5CA6F5006E2F22 /* KPartyRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A0EF11E5CA6F5006E2F22 /* KPartyRock.swift */; };
 		2B2A0EF71E5CA6F5006E2F22 /* PartyRockSmile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A0EF21E5CA6F5006E2F22 /* PartyRockSmile.swift */; };
+		2B68E82C1E5DF62E00B29FBF /* galuszaMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B68E82A1E5DF62E00B29FBF /* galuszaMain.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		2B2A0EF01E5CA6F5006E2F22 /* JakeNHL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JakeNHL.swift; sourceTree = "<group>"; };
 		2B2A0EF11E5CA6F5006E2F22 /* KPartyRock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPartyRock.swift; sourceTree = "<group>"; };
 		2B2A0EF21E5CA6F5006E2F22 /* PartyRockSmile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyRockSmile.swift; sourceTree = "<group>"; };
+		2B68E82B1E5DF62E00B29FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PartyRockApp/Base.lproj/galuszaMain.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			children = (
 				2B1D90CA1E4D607F00BC1987 /* AppDelegate.swift */,
 				2B1D90CE1E4D607F00BC1987 /* Main.storyboard */,
+				2B68E82A1E5DF62E00B29FBF /* galuszaMain.storyboard */,
 				2B1D90D11E4D607F00BC1987 /* Assets.xcassets */,
 				2B1D90D31E4D607F00BC1987 /* LaunchScreen.storyboard */,
 				2B1D90D61E4D607F00BC1987 /* Info.plist */,
@@ -330,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B1D90D51E4D607F00BC1987 /* LaunchScreen.storyboard in Resources */,
+				2B68E82C1E5DF62E00B29FBF /* galuszaMain.storyboard in Resources */,
 				2B1D90D21E4D607F00BC1987 /* Assets.xcassets in Resources */,
 				2B1D90D01E4D607F00BC1987 /* Main.storyboard in Resources */,
 			);
@@ -431,6 +435,15 @@
 				2B1D90D41E4D607F00BC1987 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2B68E82A1E5DF62E00B29FBF /* galuszaMain.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B68E82B1E5DF62E00B29FBF /* Base */,
+			);
+			name = galuszaMain.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -46,6 +46,9 @@
                                                     <constraint firstAttribute="height" constant="150" id="T9w-Q7-vEd"/>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="hayden"/>
+                                                <connections>
+                                                    <segue destination="O52-I4-YDR" kind="showDetail" id="1ac-ni-H5f"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -315,6 +318,197 @@
             </objects>
             <point key="canvasLocation" x="1830" y="-242"/>
         </scene>
+        <!--Galusza MainVC-->
+        <scene sceneID="hyw-1E-p05">
+            <objects>
+                <viewController id="O52-I4-YDR" customClass="galuszaMainVC" customModule="PartyRockApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HVn-GF-V5d"/>
+                        <viewControllerLayoutGuide type="bottom" id="pRA-eJ-npl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uaf-Wg-TxH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-big-1" translatesAutoresizingMaskIntoConstraints="NO" id="90d-OT-t0T">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="108"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="EvG-oA-2VJ"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ljx-Fw-pqg">
+                                <rect key="frame" x="0.0" y="108" width="375" height="52"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="18U-By-mSD">
+                                        <rect key="frame" x="27" y="6" width="332" height="41"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTd-Ac-flX">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="41"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="41" id="z0Z-HF-Jrd"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="Top Videos">
+                                                    <color key="titleColor" red="0.91097431279999996" green="0.28077493749999999" blue="0.25859118170000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EH3-tr-X4J">
+                                                <rect key="frame" x="116" y="0.0" width="100" height="41"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="100" id="9zf-dn-2cX"/>
+                                                    <constraint firstAttribute="height" constant="41" id="vKt-1y-rfS"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="Meet Mark">
+                                                    <color key="titleColor" red="0.91097431279999996" green="0.28077493749999999" blue="0.25859118170000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZUP-wD-EMK">
+                                                <rect key="frame" x="232" y="0.0" width="100" height="41"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="100" id="WQh-hi-ZL6"/>
+                                                    <constraint firstAttribute="height" constant="41" id="vht-9k-pXX"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="Hacking">
+                                                    <color key="titleColor" red="0.91097431279999996" green="0.28077493749999999" blue="0.25859118170000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="G1q-LL-QxG"/>
+                                    <constraint firstItem="18U-By-mSD" firstAttribute="leading" secondItem="ljx-Fw-pqg" secondAttribute="leading" constant="27" id="U0x-Lk-s82"/>
+                                    <constraint firstItem="18U-By-mSD" firstAttribute="top" secondItem="ljx-Fw-pqg" secondAttribute="top" constant="6" id="ehA-Do-hTi"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="91" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3vs-Mu-io3">
+                                <rect key="frame" x="0.0" y="160" width="375" height="507"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PartyCell" rowHeight="91" id="O38-sN-apy" userLabel="PartyCell" customClass="galuszaPartyCell" customModule="PartyRockApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="91"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="O38-sN-apy" id="L6Y-rK-E0v">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="udUHy4ze" translatesAutoresizingMaskIntoConstraints="NO" id="rTy-n1-2Hy">
+                                                    <rect key="frame" x="0.0" y="5" width="80" height="80"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="80" id="GXM-13-OJ8"/>
+                                                        <constraint firstAttribute="height" constant="80" id="gUA-44-03c"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ultimate Hacking Guide" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f2E-ez-iq9">
+                                                    <rect key="frame" x="88" y="21" width="232" height="48"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="48" id="97b-Ay-Adx"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.91097431279999996" green="0.28077493749999999" blue="0.25859118170000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="rTy-n1-2Hy" firstAttribute="centerY" secondItem="L6Y-rK-E0v" secondAttribute="centerY" id="1eH-mM-v55"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="f2E-ez-iq9" secondAttribute="trailing" constant="47" id="Qhr-SV-84V"/>
+                                                <constraint firstItem="rTy-n1-2Hy" firstAttribute="leading" secondItem="L6Y-rK-E0v" secondAttribute="leading" id="cFA-DW-dZ1"/>
+                                                <constraint firstItem="f2E-ez-iq9" firstAttribute="centerY" secondItem="L6Y-rK-E0v" secondAttribute="centerY" id="deA-U0-2cd"/>
+                                                <constraint firstItem="f2E-ez-iq9" firstAttribute="leading" secondItem="rTy-n1-2Hy" secondAttribute="trailing" constant="8" id="vIi-JM-W2u"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="videoPreviewImage" destination="rTy-n1-2Hy" id="Fdb-Pn-g90"/>
+                                            <outlet property="videoTitle" destination="f2E-ez-iq9" id="buy-eY-esN"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3vs-Mu-io3" firstAttribute="leading" secondItem="Uaf-Wg-TxH" secondAttribute="leading" id="HEu-hB-iPk"/>
+                            <constraint firstItem="pRA-eJ-npl" firstAttribute="top" secondItem="3vs-Mu-io3" secondAttribute="bottom" id="KVp-ax-1Wc"/>
+                            <constraint firstAttribute="trailing" secondItem="90d-OT-t0T" secondAttribute="trailing" id="OWG-ow-AE9"/>
+                            <constraint firstItem="ljx-Fw-pqg" firstAttribute="leading" secondItem="90d-OT-t0T" secondAttribute="leading" id="YOd-vZ-tO5"/>
+                            <constraint firstItem="ljx-Fw-pqg" firstAttribute="trailing" secondItem="90d-OT-t0T" secondAttribute="trailing" id="a5c-ux-C3A"/>
+                            <constraint firstItem="3vs-Mu-io3" firstAttribute="top" secondItem="ljx-Fw-pqg" secondAttribute="bottom" id="bs7-RR-iAe"/>
+                            <constraint firstAttribute="trailing" secondItem="3vs-Mu-io3" secondAttribute="trailing" id="eRr-6t-Dna"/>
+                            <constraint firstItem="90d-OT-t0T" firstAttribute="leading" secondItem="Uaf-Wg-TxH" secondAttribute="leading" id="jfR-HQ-u5X"/>
+                            <constraint firstItem="90d-OT-t0T" firstAttribute="top" secondItem="Uaf-Wg-TxH" secondAttribute="top" id="miM-6V-yvw"/>
+                            <constraint firstItem="ljx-Fw-pqg" firstAttribute="top" secondItem="90d-OT-t0T" secondAttribute="bottom" id="yp6-bA-Pah"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="3vs-Mu-io3" id="isl-9k-yrL"/>
+                        <segue destination="PrS-Be-d0J" kind="showDetail" identifier="galuszaVideoVC" id="Vvh-zL-wUi">
+                            <nil key="action"/>
+                        </segue>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WeH-Je-nLD" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="921" y="618"/>
+        </scene>
+        <!--Galusza VideoVC View Controller-->
+        <scene sceneID="vyL-k0-LXG">
+            <objects>
+                <viewController id="PrS-Be-d0J" customClass="galuszaVideoVCViewController" customModule="PartyRockApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cMA-Z4-oIm"/>
+                        <viewControllerLayoutGuide type="bottom" id="MUK-cH-QxS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZQJ-Th-ksz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="prF-lV-Z27">
+                                <rect key="frame" x="16" y="20" width="343" height="147"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="Gcv-F3-LF9"/>
+                                    <constraint firstAttribute="height" constant="147" id="RWL-lx-jci"/>
+                                </constraints>
+                            </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6y-yI-huy">
+                                <rect key="frame" x="146" y="323" width="82" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fw-zS-QqC">
+                                <rect key="frame" x="16" y="604" width="85" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="85" id="788-KX-Ipu"/>
+                                    <constraint firstAttribute="height" constant="43" id="zMa-GA-vuG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="&lt; Back"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MUK-cH-QxS" firstAttribute="top" secondItem="6fw-zS-QqC" secondAttribute="bottom" constant="20" id="8BO-Ze-cf1"/>
+                            <constraint firstItem="6fw-zS-QqC" firstAttribute="leading" secondItem="ZQJ-Th-ksz" secondAttribute="leadingMargin" id="GyO-LH-UoX"/>
+                            <constraint firstItem="s6y-yI-huy" firstAttribute="centerY" secondItem="ZQJ-Th-ksz" secondAttribute="centerY" id="ad5-Hi-8EK"/>
+                            <constraint firstItem="prF-lV-Z27" firstAttribute="top" secondItem="cMA-Z4-oIm" secondAttribute="bottom" id="mCQ-aH-kxA"/>
+                            <constraint firstItem="prF-lV-Z27" firstAttribute="centerX" secondItem="ZQJ-Th-ksz" secondAttribute="centerX" id="puu-5Z-uB0"/>
+                            <constraint firstItem="s6y-yI-huy" firstAttribute="centerX" secondItem="ZQJ-Th-ksz" secondAttribute="centerX" id="qN0-5q-ZXe"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="titleLbl" destination="s6y-yI-huy" id="wOc-Je-bcX"/>
+                        <outlet property="webView" destination="prF-lV-Z27" id="qAu-3Q-RVr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rFr-kL-Hzb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1934" y="618"/>
+        </scene>
     </scenes>
     <resources>
         <image name="bobby" width="320" height="320"/>
@@ -322,6 +516,8 @@
         <image name="hayden" width="320" height="320"/>
         <image name="jake" width="320" height="320"/>
         <image name="kvu" width="320" height="320"/>
+        <image name="logo-big-1" width="16" height="16"/>
+        <image name="udUHy4ze" width="16" height="16"/>
         <image name="yves" width="320" height="320"/>
     </resources>
 </document>
